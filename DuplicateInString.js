@@ -17,4 +17,22 @@ function FindDuplicate(str){
     }
 }
 var string = 'Hello';
-FindDuplicate(string);
+FindDuplicate(string); // OP: l,count = 2
+
+
+// Remove duplicate characters from string
+function RemoveDuplicate(str){
+    var newSet = new Set();
+
+    for(var i=0; i<str.length; i++){
+        newSet.add(str[i]);
+    }
+
+    let emp = ' ';
+    for(var val of newSet){
+        emp += val;
+    }
+    console.log(emp);
+}
+var str = 'hello';
+RemoveDuplicate(str); // OP: helo
