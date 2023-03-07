@@ -12,7 +12,7 @@ function sortArr(arr){
     return arr;
 }
 let arr = [1,4,3,2,5,0];
-console.log(sortArr(arr));
+console.log(sortArr(arr)); // OP: [0,1,2,3,4,5]
 
 
 // Sorting of Array -- descending order
@@ -29,5 +29,5 @@ function sortNewArr(arr){
     return arr;
 }
 let Newarr = [1,4,3,2,5,0];
-console.log(sortNewArr(Newarr));
+console.log(sortNewArr(Newarr)); // OP: [5,4,3,2,1,0]
 
